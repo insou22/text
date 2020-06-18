@@ -58,7 +58,7 @@ text = drawText ("heyo comp3141'ers!  i made a super epic font-face for our   sh
                  "...and the fontface:" ++
                  "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()[]{}_+-=`~\\|;:'\",./<>?" ++
                  replicate 12 ' ' ++
-                 "git.insou.dev/text") green
+                 " git.insou.dev/text") green
 
 writeToFile pic
   = writePng "text.png" (drawPicture 3 text)
