@@ -50,9 +50,9 @@ text = drawText ("heyo comp3141'ers!  i made a super epic font-face for our   sh
                  "now i can  finally write imper-atively in haskell! " ++
                  replicate 20 ' ' ++
                  "int main(void) {    " ++
-                 " int i = 42;        " ++
-                 " printf(\"%d\", i);   " ++
-                 " return 0;          " ++
+                 "  int i = 42;       " ++
+                 "  printf(\"%d\", i);  " ++
+                 "  return 0;         " ++
                  "}                   " ++
                  replicate 20 ' ' ++
                  "...and the fontface:" ++
